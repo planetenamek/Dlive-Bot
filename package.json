@@ -1,5 +1,5 @@
 {
-  "name": "DiscoSteem",
+  "name": "Dlive-Bot",
   "version": "0.1.0",
   "dependencies": {
     "steem": "~0.7",
