@@ -4,14 +4,12 @@ const config = require("./config.json");
 
 const bot = new Discord.Client();
 
+var streamOp = require("./actions/streamOp.js");
 var cmd = require("./cmd-bot.js");
-var count = 0;
 
 bot.on("ready", () => {
  console.log("Dlive-Bot Ready !"); 
  bot.user.setGame('Stream Dlive Feed');
- cmd.lunchStream(count);
- count++;
 }); 
 
 bot.on("message", async message => {
@@ -45,4 +43,7 @@ bot.on("message", async message => {
 });
 
 bot.login(config.token);
+
+streamOp.stream();
+
 
