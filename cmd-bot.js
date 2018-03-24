@@ -42,16 +42,6 @@ module.exports = {
     return getWallet.wallet(account,message);
   },
 
-  lunchStream : function(count){
-    if(count === 0) {
-        streamOp.stream();
-        count++;
-        console.log("Stream is ready !");
-     }else{
-         console.log("Stream is already activated");
-     }
-  },
-
   help : function(message) {
     let embed = new Discord.RichEmbed();
         // Descriptions command help
