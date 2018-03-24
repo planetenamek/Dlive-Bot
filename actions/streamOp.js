@@ -26,8 +26,6 @@ exports.stream = function() {
     
       for(v in config.authors) {
        if (author === v) {
-        console.log(tags)
-
         for(w in config.altTags) {
          if(tags.indexOf(w) != (-1)) {
            content.getContent(author, permlink,config.altTags[w]);        
