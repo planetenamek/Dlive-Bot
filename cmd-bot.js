@@ -7,7 +7,6 @@ var info = require("./info.json");
 var getCreated = require("./actions/created.js");
 var getDiscussion = require("./actions/discussionBFD.js");
 var getWallet = require("./actions/wallet.js");
-var streamOp = require("./actions/streamOp.js");
 
 module.exports = { 
   getLastPost : function(message) {
