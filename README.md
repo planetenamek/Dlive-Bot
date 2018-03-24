@@ -26,7 +26,7 @@ There is no limit of authors or tags, you can add 1 or more authors and 1 or mor
   "token"  : "YOUR TOKEN DISCORD",
   "prefix" : "$",
   "authors" : {"author1" : "CHAN ID", "author2" : "CHAN ID"} ,
-  "altTags" : {"truc" : "CHAN ID"},
+  "altTags" : {"tag1" : "CHAN ID", "tag2" : "CHAN ID"},
   "app" : "dlive",
   "principalChan" : "CHAN ID"
 }
