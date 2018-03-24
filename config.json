@@ -2,7 +2,7 @@
   "token"  : "YOUR TOKEN DISCORD",
   "prefix" : "$",
   "authors" : {"author1" : "CHAN ID", "author2" : "CHAN ID"} ,
-  "altTags" : {"truc" : "CHAN ID"},
+  "altTags" : {"tag1" : "CHAN ID"},
   "app" : "dlive",
   "principalChan" : "CHAN ID"
 }
